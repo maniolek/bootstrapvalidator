@@ -530,7 +530,7 @@ if (typeof jQuery === 'undefined') {
             cssClasses = cssClasses.split(' ');
             var n = cssClasses.length;
             for (var i = 0; i < n; i++) {
-                if (/^col-(xs|sm|md|lg)-\d+$/.test(cssClasses[i]) || /^col-(xs|sm|md|lg)-offset-\d+$/.test(cssClasses[i])) {
+                if (/^bv-holder$/.test(cssClasses[i])) {
                     return $parent;
                 }
             }
